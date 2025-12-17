@@ -1,0 +1,437 @@
+:root{
+  --teal:orange;
+  --white:#ffffff;
+}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#eef4f7;
+}
+
+.wrap{
+  max-width:420px;
+  margin:20px auto;
+  padding:10px;
+}
+
+.views-badge{
+  background:#ffffff33;
+  padding:8px 12px;
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  border-radius:20px;
+  color:#000;
+  font-weight:bold;
+  position:relative;
+  left:10px;
+  margin-bottom:-35px;
+}
+
+.card{
+  background:var(--teal);
+  padding:40px 20px;
+  color:white;
+  border-radius:25px;
+  position:relative;
+}
+
+.logo-wrap{
+  width:120px;
+  height:120px;
+  background:white;
+  border-radius:10px;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.logo-wrap img{
+  max-width:100%;
+}
+
+h1{
+  text-align:center;
+  margin-top:15px;
+}
+
+.divider{
+  width:60px;
+  height:3px;
+  background:white;
+  margin:10px auto 25px;
+}
+
+.btn-row{
+  display:flex;
+  justify-content:center;
+  gap:15px;
+}
+
+.btn{
+  padding:12px 18px;
+  border-radius:30px;
+  border:2px solid white;
+  background:transparent;
+  color:white;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.btn.secondary{
+  background:#ffffff33;
+}
+
+
+.white-card{
+  max-width:420px;
+  margin:20px auto;
+  padding:10px;
+}
+
+.page-title{
+  font-size:28px;
+  font-weight:800;
+  color:#222;
+  margin-bottom:20px;
+}
+
+.contact-card{
+  background:#ffffff;
+  border:1px solid #ddd;
+  border-radius:6px;
+  padding:22px 15px;
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.icon{
+  font-size:32px;
+  color:orange;
+  margin-bottom:12px;
+}
+
+.contact-card p{
+  margin:6px 0;
+  color:#555;
+  font-size:17px;
+  line-height:1.4;
+}
+
+
+
+/* ===================== */
+/* ABOUT US PAGE CSS */
+/* ===================== */
+
+/* About page wrapper */
+.container{
+  max-width:420px;
+  margin:15px auto;
+  padding:10px;
+  
+}
+
+/* About card (alag class use ki) */
+.about-card{
+  background: #eef4f7;
+  border-radius: 22px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid orange;
+
+ 
+}
+
+/* About page title */
+.about-title{
+  font-size:28px;
+  font-weight:800;
+  margin-bottom:25px;
+  color:#222;
+  position:relative;
+}
+
+/* Dotted design near ABOUT US title */
+.about-title::before{
+  content:"";
+  position:absolute;
+  top:-10px;
+  left:0;
+  width:60px;
+  height:16px;
+  background:radial-gradient(circle, orange 2px, transparent 2px);
+  background-size:8px 8px;
+}
+
+/* Business info table */
+.info-table{
+  margin-bottom:30px;
+  
+}
+
+.row{
+  display:flex;
+  margin-bottom:14px;
+  
+}
+
+.label{
+  width:45%;
+  color:black;
+  font-weight:700;
+}
+
+.value{
+  width:55%;
+  color:#000;
+  line-height:1.4;
+  display: flex;
+  flex-direction: column;
+  
+}
+.value span{
+    display: block;
+}
+
+/* Our Specialities section */
+.sub-title{
+  font-size:22px;
+  margin-bottom:15px;
+  color:#333;
+}
+
+.specialities{
+  padding-left:18px;
+}
+
+.specialities li{
+  margin-bottom:10px;
+  color:#555;
+  line-height:1.5;
+}
+/* Services */
+
+.page-title{
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #000;
+  position: relative;
+}
+
+.page-title ::before{
+  content:"";
+  position: absolute;
+  top: -10px;
+  left:0;
+  width: 60px;
+  height:16px;
+  background: radial-gradient(circle,orange 2px,transparent 2px);
+  background-size: 8px 8px;
+}
+
+.service-card{
+  background: #eef4f7;
+  border-radius: 22px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid orange;
+}
+
+.service-card img{
+  width: 100%;
+  border-radius: 12px;
+}
+
+.btn-row{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.icon-btn{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 2px solid orange;
+  background: #ddd;
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.enquiry-btn{
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: 2px solid orange;
+  background: #ddd;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Gallery*/
+
+.page-title{
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color:black;
+  position: relative;
+}
+.page-title ::before{
+  content:"";
+  position: absolute;
+  top: -10px;
+  left:0;
+  width: 60px;
+  height:16px;
+  background: radial-gradient(circle,orange 2px,transparent 2px);
+  background-size: 8px 8px;
+}
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.gallery img{
+  width: 100%;
+  height: 170;
+  object-fit: cover;
+  border-radius: 12px;
+   border: 2px solid orange;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  background: #eef4f7;
+  border-radius: 22px;
+
+}
+
+/* FEEDBACK SECTION */
+
+
+
+body{
+  margin: 0;
+  background: #eef4f7;
+}
+
+.container{
+  max-width: 420px;
+  margin: 15px auto;
+  padding: 10px;
+}
+
+.section-title{
+  font-size: 26px;
+  font-weight: 800;
+  margin: 20px 0 15px;
+  position: relative;
+}
+
+.section-title::before{
+  content:"";
+  position: absolute;
+  top: -10px;
+  left:0;
+  width: 60px;
+  height:16px;
+  background: radial-gradient(circle,orange 2px,transparent 2px);
+  background-size: 8px 8px;
+}
+
+.c{
+  background: #eef4f7;
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.c h3{
+  margin-bottom: 15px;
+  color: black;
+}
+
+input , textarea{
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid orange;
+  font-size: 14px;
+}
+
+textarea{
+  resize: none;
+  height: 90px;
+}
+
+.rating-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid orange;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 15px;
+  }
+
+.stars{
+  font-size: 22px;
+  color: orange;
+}
+
+.rating-label{
+  background: #eef4f7;
+  color:black;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.btn{
+  padding: 12px 26px;
+  border: 2px solid orange;
+  background: #ddd;
+  color: #000;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.row{
+  display: flex;
+  gap: 10px;
+}
+
+.row input{
+  width: 50%;
+}
+
+.bottom-nav{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  background:white;
+  padding:5px 0;
+  display:flex;
+  justify-content:space-around;
+  border-top:1px solid #ddd;
+}
+
+.nav-item{
+  text-align:center;
+  font-size:11px;
+  color:orange;
+  font-weight:bold;
+}
